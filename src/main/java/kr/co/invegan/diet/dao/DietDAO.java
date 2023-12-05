@@ -17,7 +17,7 @@ public interface DietDAO {
 
 	FoodDataDTO showNutri(int foodId);
 
-	int getServingSize(int food_id);	// ?
+	int getServingSize(int food_id);	
 
 	int addDiet(DietDTO dietDTO);
 	int addMenu(DietDTO dietDTO);

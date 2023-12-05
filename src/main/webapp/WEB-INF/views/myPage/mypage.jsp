@@ -55,7 +55,7 @@
 	}
 	.myPageImg{
 		vertical-align:baseline;	/*bootstrap 속성 초기화하기*/
-		/* 도훈이 주석 
+		/*
 		position : absolute;
 		top : 20px;
 		bottom : 20px; */ 
@@ -74,7 +74,7 @@
     }
 	.userInfo { 
 		margin: 0 35px 50px 0;
-		/* 도훈이 주석
+		/*
 		position : absolute;
 		top: 30px;
 		left : 300px;
@@ -100,31 +100,12 @@
 		padding: 0px 50px;
 		border-radius: 10px;
 	}
-	.additionalInfo{
-		/* 도훈이 주석
-		position : absolute;
-		top: 30px;
-		right: 10px;
-		font-size: 18px;
-		width : 336px; */
-	}
-      
-	.is_admin{
-	/*  도훈이 주석
-		position : absolute;
-		top: 10px;
-		right: 298px;
-		font-size: 14px;
-		text-decoration: underline;
-		text-decoration-color: #08ffb3; 
-		text-decoration-thickness: 2px; */
-	}
 	
       
 	.delUser{
 		position: absolute;
 		bottom: 8px;
-		/* 도훈이 주석 
+		/* 
 		position : absolute;
 		top: 15px;
 		right: -7px; */
@@ -171,7 +152,7 @@
 	}
 
 	ul.tabs{
-/* 		도훈이 주석
+/* 		
 		position : absolute;
 		top : 383px; */
 		margin: 2px;
@@ -681,7 +662,7 @@ input[name="password"] {
 	        <img src="/photo/${myPageImg}" width="180" height="220">
 	    </div> --%>
 	    
-		<%-- 도훈이 주석	 
+		<%-- 	 
 	   <div class="is_admin">
 		    <c:choose>
 		        <c:when test="${dto.is_admin==1}">
@@ -710,7 +691,7 @@ input[name="password"] {
 	    		</tr>
 	    	</table>
 	    	
-		   	<%-- 도훈이 주석 
+		   	<%--  
 		   	<div class="userInfo-title">
 		        <label>가입날짜</label><br>
 		        <label style="letter-spacing:9px;">아이디</label><br>
@@ -765,7 +746,7 @@ input[name="password"] {
 	   			</tr>
 	   		</table>
 	   		
-<%-- 	   도훈이 주석
+<%-- 	   
 		    <label>닉네임 : </label> ${dto.nickname}<br>
 	        <label>비건타입 : </label>  
 	        <c:if test="${dto.vegan_type eq '1' }"> 

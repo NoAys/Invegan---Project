@@ -235,25 +235,6 @@ public class RestaurantController {
 		
 	}
 	
-	/*
-	@RequestMapping(value = "/restaurant/reviewWrite")
-	@ResponseBody
-	public HashMap<String, String> reviewWrite(@RequestParam HashMap<String, String> param, HttpSession session) {
-		logger.info("식당 즐겨찾기 요청");
-		MemberDTO loginInfo = (MemberDTO) session.getAttribute("loginInfo");
-		HashMap<String, String> result = new HashMap<String, String>();
-		
-		if(loginInfo == null) {// 비로그인
-			logger.info("비로그인 loginInfo: "+loginInfo);
-		}else{// 일반 회원
-			logger.info("요청 ID: "+loginInfo.getId());
-			int success = service.reviewWrite(param);
-			
-		}
-		return result;
-	}
-	 */	
-	
 	
 	
 	
